@@ -1,0 +1,54 @@
+html {
+    background-color: #FFF;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.theme-color {
+    color: #3498db;
+}
+
+/* SHARED STYLES */
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/jumbotron-photo.jpg) top center;
+    background-size: cover;
+    height: 93vh;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    margin-top: 30%;
+}
+
+.jumbotron .app-btn {
+    width: 35%;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.jumbotron-image {
+    width: 100%;
+    height: auto;
+}
