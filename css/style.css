@@ -18,13 +18,22 @@ body {
 /* SHARED STYLES */
 
 h1 {
+    color: #fff;
     text-transform: uppercase;
+}
+
+section {
+    padding: 40px 0;
 }
 
 /* NAVBAR */
 
 .navbar-brand {
     text-transform: uppercase;
+}
+
+.navbar-inverse {
+    background-color: #292929;
 }
 
 /* JUMBOTRON */
@@ -37,7 +46,6 @@ h1 {
 }
 
 .jumbotron h1 {
-    color: #fff;
     margin-top: 30%;
 }
 
@@ -51,4 +59,59 @@ h1 {
 .jumbotron-image {
     width: 100%;
     height: auto;
+}
+
+/* ABOUT  SECTION */
+
+.about-image {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #848484;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+/* FEATURES SECTION */
+
+.features {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.features-image {
+    width: 100%;
+}
+
+.features-list {
+    margin-top: 20px;
+}
+
+.features ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 200%;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    padding-right: 40px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    text-align: right;
 }
